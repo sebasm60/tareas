@@ -8,7 +8,7 @@ const app = express();
 require('./config/database');
 
 //Setings
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3001);
 
 //middwares
 app.use(morgan('dev'));
